@@ -5,9 +5,9 @@
 
 ## Task: Synchronize Employee Data
 
-1. Insert new employee records from employee_src to employee_tgt if they don't already exist.
-2. Update employee names in employee_tgt from the latest data in employee_src if the record is not marked as deleted.
-3. Mark employees as deleted in employee_tgt if they no longer exist in employee_src and are currently active.
+1. Insert new employee records from `employee_src` to `employee_tgt` if they don't already exist.
+2. Update employee names in `employee_tgt` from the latest data in `employee_src` if the record is not marked as deleted.
+3. Mark employees as deleted in `employee_tgt` if they no longer exist in `employee_src` and are currently active.
 4. Ensure changes are made efficiently by handling new inserts, updates, and deletions in a single procedure execution.
 
 ## Code
