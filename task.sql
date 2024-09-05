@@ -1,3 +1,5 @@
+-- Author: Sakthi Santhosh
+-- Created on: 05/09/2024
 CREATE TABLE employee_src (
     employee_id INT PRIMARY KEY,
     name NVARCHAR(100),
